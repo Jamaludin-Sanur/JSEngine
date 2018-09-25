@@ -1,0 +1,23 @@
+{
+  "name": "jsengine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/JSEngine.js",
+  "module": "dev/index.js",
+  "scripts": {
+    "start": "webpack --config ./core-webpack.config.js --mode=production ",
+    "dev" : "webpack --inspect-brk -d --config ./core-webpack.config.js --watch ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jamaludinsanur3@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
