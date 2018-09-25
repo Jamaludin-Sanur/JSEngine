@@ -1,6 +1,6 @@
 const ICommand = require("../ICommand");
 const FS = require("fs");
-const JSEngine = require("/Users/js/Documents/workspace/JSEngine/core/dist/JSEngine");
+const JSEngine = require("../../../core/dist/JSEngine");
 const { ListCommands, ListEntities, ListAction, ListDirection, } = require("./MyQCommandList");
 
 class MyQCommand extends ICommand {
