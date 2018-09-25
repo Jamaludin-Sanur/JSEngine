@@ -2,6 +2,8 @@ Requirement :
 NodeJS
 
 Installation :
+- go to 'cli' folder
+- run npm i
 - go to 'core' folder
 - run npm i
 - run npm start
